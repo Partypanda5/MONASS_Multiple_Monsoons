@@ -1,0 +1,206 @@
+* 
+{
+    box-sizing: border-box;
+}
+body 
+{
+    font-family: 'Lato';
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+    overflow: hidden;
+    background-color: #ededed;
+}
+.headings
+{
+    position: absolute;
+    bottom: 0.5vh;
+    width: 5vw;
+    height: 100vh;
+    border-right: 3px solid white;
+    padding: 0;
+    margin: 0;
+}
+.headingTitle
+{
+    margin: 10px;
+    transform: rotate(90deg);
+    white-space: nowrap;
+    position: relative;
+    top: 3vh;
+}
+.headingItem
+{
+    transform: rotate(90deg);
+    white-space: nowrap;
+    position: relative;
+    top: 25vh;
+    font-size: 16px;
+}
+#project
+{
+    top: 30vh;
+}
+#calendar
+{
+    top: 38vh;
+}
+#residency
+{
+    top: 50vh;
+}
+#assemblages
+{
+    top: 62vh;
+}
+#mainSection
+{
+    width: 55vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 5.5vw;
+    bottom: 0.5vh;
+}
+.cityTitle
+{
+    margin: 10px;
+    transform: rotate(90deg);
+    white-space: nowrap;
+    position: relative;
+    top: 51vh;
+    right: 25vw;
+}
+#cityHeadings
+{
+    position: relative;
+    top: 25vh;
+    left: 1.5vw;
+}
+.cityName
+{
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+}
+.content
+{
+    position: relative;
+    width: 23vw;
+    height: 50vh;
+    left: 25vw;
+    bottom: 10vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 10px;
+}
+#accordianSection
+{
+    position: relative;
+    width: 100%;
+    left: 60vw;
+    bottom: 0.5vw;
+    margin: 0;
+    padding: 0;
+
+}
+ul 
+{
+    display: flex;
+    min-height: 100vh;
+    max-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+li 
+{
+    display: flex;
+    align-items: stretch;
+    padding: 20px;
+    background: #ededed;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    width: 5vw;
+    border-left: 3px solid white;
+}
+li:hover 
+{
+    background: #e2e2e2;
+}
+li.active 
+{
+    background: #ededed;
+    cursor: default;
+    width: 25vw;
+}
+li.active h2 {
+    color: black;
+}
+li.active .section-content 
+{
+    opacity: 1;
+    color: black;
+    position: relative;
+    right: 2vw;
+}
+.text
+{
+    width: 15vw;
+}
+li .section-title 
+{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: black;
+    position: relative;
+    right: 2vw;
+    bottom: 40vh;
+}
+li .section-title h2 
+{
+    margin: 0;
+    transform: rotate(90deg);
+    white-space: nowrap;
+}
+li .section-content 
+{
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    transition: all 0.25s 0.1s ease-out;
+}
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #e2e2e2;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: white;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: white;
+  }
