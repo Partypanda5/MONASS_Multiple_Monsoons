@@ -63,21 +63,23 @@ body
     position: absolute;
     left: 5.5vw;
     bottom: 0.5vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 .cityTitle
 {
     margin: 10px;
     transform: rotate(90deg);
     white-space: nowrap;
-    position: relative;
-    top: 51vh;
-    right: 25vw;
+    position: fixed;
+    top: 9.5vh;
+    right: 86vw;
 }
 #cityHeadings
 {
     position: relative;
-    top: 25vh;
-    left: 1.5vw;
+    top: 30vh;
+    left: 5vw;
 }
 .cityName
 {
@@ -89,11 +91,11 @@ body
 {
     position: relative;
     width: 23vw;
-    height: 50vh;
+    height: 100vh;
     left: 25vw;
     bottom: 10vh;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: visible;
     padding: 10px;
 }
 #accordianSection
@@ -203,4 +205,11 @@ a
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: white;
+  }
+
+  #dataImage
+  {
+      position: relative;
+      bottom: 25vh;
+      left: 1.5vw;
   }
