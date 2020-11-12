@@ -18,7 +18,7 @@ body
     bottom: 0.5vh;
     width: 5vw;
     height: 100vh;
-    border-right: 3px solid white;
+    border-right: 3px solid black;
     padding: 0;
     margin: 0;
 }
@@ -28,7 +28,9 @@ body
     transform: rotate(90deg);
     white-space: nowrap;
     position: relative;
-    top: 3vh;
+    top:10vh;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 .headingItem
 {
@@ -37,6 +39,8 @@ body
     position: relative;
     top: 25vh;
     font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 #project
 {
@@ -64,45 +68,70 @@ body
     left: 5.5vw;
     bottom: 0.5vh;
     overflow-x: hidden;
-    overflow-y: scroll;
+}
+#mainSection::-webkit-scrollbar 
+{
+    display: none;
 }
 .cityTitle
 {
     margin: 10px;
     transform: rotate(90deg);
     white-space: nowrap;
-    position: fixed;
-    top: 9.5vh;
-    right: 86vw;
+    position: absolute;
+    top: 14.5vh;
+    right: 87.5vw;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 #cityHeadings
 {
     position: relative;
     top: 30vh;
-    left: 5vw;
+    left: 1vw;
+    font-family: 'Sora', sans-serif;
 }
 .cityName
 {
     margin: 0;
     padding: 0;
-    font-size: 60px;
+    font-size: 3.5vw;
+    line-height: 63px;
+    position: relative;
+    left: 0.5vw;
+    top: 9vh;
 }
 .content
 {
     position: relative;
-    width: 23vw;
+    width: 26vw;
     height: 100vh;
-    left: 25vw;
-    bottom: 10vh;
+    left: 28vw;
+    top: 20vh;
     overflow-x: hidden;
-    overflow-y: visible;
+    overflow-y: hidden;
     padding: 10px;
+}
+#contentTitle
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    width: 25vw;    
+}
+.contentText
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 25px;
 }
 #accordianSection
 {
     position: relative;
     width: 100%;
-    left: 60vw;
+    left: 66vw;
     bottom: 0.5vw;
     margin: 0;
     padding: 0;
@@ -126,8 +155,8 @@ li
     background: #ededed;
     cursor: pointer;
     transition: all 0.5s ease;
-    width: 5vw;
-    border-left: 3px solid white;
+    width: 3vw;
+    border-left: 3px solid black;
 }
 li:hover 
 {
@@ -164,6 +193,8 @@ li .section-title
     position: relative;
     right: 2vw;
     bottom: 40vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
 }
 li .section-title h2 
 {
@@ -199,17 +230,38 @@ a
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: white;
+    background: black;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: white;
+    background: black;
   }
 
-  #dataImage
+  #Interlocutors
   {
       position: relative;
-      bottom: 25vh;
-      left: 1.5vw;
+      top: 4vh;
+      right: 0.3vw;
+  }
+
+  #Infrastructure
+  {
+      position: relative;
+      top: 4vh;
+      right: 0.5vw;
+  }
+
+  #Framings
+  {
+      position: relative;
+      top: 2.2vh;
+      left: 0.5vw;
+  }
+
+  #Matters
+  {
+      position: relative;
+      top: 1.8vh;
+      left: 0.5vw;
   }
