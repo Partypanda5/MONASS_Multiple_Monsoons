@@ -2,6 +2,12 @@
 {
     box-sizing: border-box;
 }
+html
+{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
 body 
 {
     font-family: 'Lato';
@@ -10,13 +16,15 @@ body
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizelegibility;
     overflow: hidden;
-    background-color: #ededed;
+    background-color: white;
+    padding: 0;
+    margin: 0;
 }
 .headings
 {
     position: absolute;
     bottom: 0.5vh;
-    width: 5vw;
+    width: 3vw;
     height: 100vh;
     border-right: 3px solid black;
     padding: 0;
@@ -28,7 +36,8 @@ body
     transform: rotate(90deg);
     white-space: nowrap;
     position: relative;
-    top:10vh;
+    top:5vh;
+    right: 0vw;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
 }
@@ -38,6 +47,7 @@ body
     white-space: nowrap;
     position: relative;
     top: 25vh;
+    right: 0vw;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -79,8 +89,8 @@ body
     transform: rotate(90deg);
     white-space: nowrap;
     position: absolute;
-    top: 14.5vh;
-    right: 87.5vw;
+    top: 11.3vh;
+    right: 91vw;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
 }
@@ -97,7 +107,7 @@ body
     padding: 0;
     font-size: 3.5vw;
     line-height: 63px;
-    position: relative;
+    position: absolute;
     left: 0.5vw;
     top: 9vh;
 }
@@ -107,7 +117,7 @@ body
     width: 26vw;
     height: 100vh;
     left: 28vw;
-    top: 20vh;
+    top: 33vh;
     overflow-x: hidden;
     overflow-y: hidden;
     padding: 10px;
@@ -137,6 +147,123 @@ body
     padding: 0;
 
 }
+.tabSubtitles
+{
+    position: absolute;
+    transform: rotate(90deg);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#DragonFlies
+{
+    bottom: 26vh;
+    right: 0.8vw;
+}
+#HilsaFish
+{
+    bottom: 15vh;
+    right: 1.3vw;
+}
+#Jackfruit
+{
+    bottom: 5vh;
+    right: 1.6vw;
+}
+#Mangos
+{
+    bottom: -5vh;
+    right: 1.7vw;
+}
+#Snakes
+{
+    bottom: -15vh;
+    right: 1.8vw;
+}
+#Bricks
+{
+    bottom: 28.2vh;
+    right: 2.5vw;
+}
+#Khals
+{
+    bottom: 20vh;
+    right: 2.6vw;
+}
+#PipesAndPots
+{
+    bottom: 10vh;
+    right: 1.2vw;
+    width: 5vw;
+}
+#Tanks
+{
+    bottom: 0vh;
+    right: 2.6vw;
+}
+#Weeds
+{
+    bottom: -8vh;
+    right: 2.5vw;
+}
+#Atmoshere
+{
+    bottom: 26.3vh;
+    right: -0.5vw;
+}
+#Air
+{
+    bottom: 17vh;
+    right: 1vw;
+}
+#Ocean
+{
+    bottom: 10vh;
+    right: 0.4vw;
+}
+#Salt
+{
+    bottom: 2vh;
+    right: 1vw;
+}
+#Groundwater
+{
+    bottom: -8vh;
+    right: -0.8vw;
+    width: 5vw;
+}
+#Sediment
+{
+    bottom: -20vh;
+    right: 0vw;
+}
+#Plastic
+{
+    bottom: -30vh;
+    right: 0.5vw;
+}
+#Anemometer
+{
+    bottom: 25.5vh;
+    right: -1.5vw;
+}
+#AntiCyclone
+{
+    bottom: 11vh;
+    right: -1.5vw;
+    width: 5vw;
+}
+#Argo
+{
+    bottom: 0vh;
+    right: 0vw;
+}
+#AtmosphericAerosols
+{
+    bottom: -15vh;
+    right: -6.5vw;
+    width: 15vw;
+}
 ul 
 {
     display: flex;
@@ -152,7 +279,7 @@ li
     display: flex;
     align-items: stretch;
     padding: 20px;
-    background: #ededed;
+    background: white;
     cursor: pointer;
     transition: all 0.5s ease;
     width: 3vw;
@@ -160,11 +287,11 @@ li
 }
 li:hover 
 {
-    background: #e2e2e2;
+    background: #eeeeee;
 }
 li.active 
 {
-    background: #ededed;
+    background: white;
     cursor: default;
     width: 25vw;
 }
@@ -192,7 +319,7 @@ li .section-title
     color: black;
     position: relative;
     right: 2vw;
-    bottom: 40vh;
+    bottom: 44.5vh;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
 }
@@ -225,7 +352,7 @@ a
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #e2e2e2;
+    background: white;
   }
   
   /* Handle */

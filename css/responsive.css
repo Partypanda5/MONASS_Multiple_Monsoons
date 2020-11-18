@@ -1,0 +1,165 @@
+@media (min-width: 1700px) and (max-width: 1799px) 
+{
+    li .section-title 
+    {
+        right: 2.5vw;
+    }
+    .cityTitle 
+    {
+        top: 11vh;
+    }
+
+    #Framings 
+    {
+        top: 1.7vh;
+    }
+
+    #Matters {
+        top: 1vh;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1699px) 
+{
+    li .section-title 
+    {
+        right: 2.7vw;
+    }
+
+    .cityTitle 
+    {
+        right: 87vw;
+        top: 11.3vh;
+    }
+
+    #Framings 
+    {
+        top: 1.7vh;
+    }
+
+    #Matters {
+        top: 1vh;
+    }
+}
+
+@media (min-width: 1500px) and (max-width: 1599px) 
+{
+    li .section-title 
+    {
+        right: 2.9vw;
+    }
+
+    .cityTitle 
+    {
+        right: 88.5vw;
+        top: 11.5vh;
+    }
+
+    #Framings 
+    {
+        top: 1.7vh;
+    }
+
+    #Matters {
+        top: 1vh;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1499px) 
+{
+    li .section-title 
+    {
+        right: 3.2vw;
+    }
+
+    .cityTitle 
+    {
+        right: 89vw;
+        top: 11.5vh;
+    }
+
+    #Infrastructure 
+    {
+        top: 4.4vh;
+    }
+
+    #Framings 
+    {
+        top: 2.2vh;
+    }
+
+    #Matters {
+        top: 1.5vh;
+    }
+
+    .headingTitle 
+    {
+        top: 3vh;
+    }
+
+    #project
+    {
+        top: 23vh;
+    }
+    #calendar
+    {
+        top: 31vh;
+    }
+    #residency
+    {
+        top: 43vh;
+    }
+    #assemblages
+    {
+        top: 56vh;
+    }
+}
+
+@media (min-width: 1300px) and (max-width: 1399px) 
+{
+    li .section-title 
+    {
+        right: 3.5vw;
+    }
+
+    .cityTitle 
+    {
+        right: 87vw;
+        top: 11.8vh;
+    }
+    #Infrastructure 
+    {
+        top: 3.9vh;
+        right: 0.8vw;
+    }
+
+    #Framings 
+    {
+        top: 2vh;
+    }
+
+    #Matters {
+        top: 1.5vh;
+        left: 0.8vw;
+    }
+    
+    #Interlocutors
+    {
+        top: 3.5vh;
+        right: 0.5vw;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1299px) 
+{
+    li .section-title 
+    {
+        right: 4vw;
+    }
+
+    .cityTitle 
+    {
+        right: 85vw;
+        top: 15.5vh;
+    }
+}
