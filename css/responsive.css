@@ -6,16 +6,106 @@
     }
     .cityTitle 
     {
-        top: 11vh;
+        top: 9vh;
+        left: 1vw;
     }
-
     #Framings 
     {
-        top: 1.7vh;
+        top: 2.2vh;
     }
-
-    #Matters {
-        top: 1vh;
+    #Matters 
+    {
+        top: 1.8vh;
+    }
+    #DragonFlies 
+    {
+        right: 0.5vw;
+        width: 6vw;
+    }
+    #HilsaFish
+    {
+        right: 1.5vw;
+    }
+    #Jackfruit 
+    {
+        right: 1.7vw;
+    }
+    #Mangos 
+    {
+        right: 1.8vw;
+    }
+    #Snakes 
+    {
+        right: 2vw;
+    }
+    #Bricks 
+    {
+        right: 2.8vw;
+    }
+    #Khals 
+    {
+        right: 2.9vw;
+    }
+    #PipesAndPots 
+    {
+        right: 0.5vw;
+        width: 7vw;
+    }
+    #Tanks 
+    {
+        right: 2.8vw;
+    }
+    #Weeds 
+    {
+        right: 2.7vw;
+    }
+    #Atmoshere 
+    {
+        right: -0.5vw;
+    }
+    #Air 
+    {
+        right: 1.4vw;
+    }
+    #Ocean 
+    {
+        right: 0.6vw;
+    }
+    #Salt 
+    {
+        right: 1.2vw;
+    }
+    #Groundwater 
+    {
+        right: -0.6vw;
+    }
+    #Sediment 
+    {
+        bottom: -21vh;
+        right: -0vw;
+    }
+    #Plastic 
+    {
+        bottom: -32vh;
+        right: 0.6vw;
+    }
+    #Anemometer 
+    {
+        right: -1.2vw;
+    }
+    #AntiCyclone 
+    {
+        right: -2vw;
+        width: 7vw;
+    }
+    #Argo 
+    {
+        right: 0.35vw;
+    }
+    #AtmosphericAerosols 
+    {
+        right: -5.9vw;
+        width: 15vw;
     }
 }
 
@@ -25,20 +115,111 @@
     {
         right: 2.7vw;
     }
-
     .cityTitle 
     {
-        right: 87vw;
+        right: 89.5vw;
         top: 11.3vh;
     }
-
     #Framings 
     {
-        top: 1.7vh;
+        top: 2.5vh;
     }
-
-    #Matters {
-        top: 1vh;
+    #Matters 
+    {
+        top: 1.9vh;
+    }
+    #Infrastructure 
+    {
+        top: 4.2vh;
+    }
+    #DragonFlies
+    {
+        right: 1vw;
+    }
+    #HilsaFish
+    {
+        right: 1.8vw;
+    }
+    #Jackfruit 
+    {
+        right: 2vw;
+    }
+    #Mangos 
+    {
+        right: 2.1vw;
+    }
+    #Snakes 
+    {
+        right: 2.2vw;
+    }
+    #Bricks 
+    {
+        right: 2.8vw;
+    }
+    #Khals 
+    {
+        right: 3.2vw;
+    }
+    #PipesAndPots 
+    {
+        right: 0.9vw;
+        width: 7vw;
+    }
+    #Tanks 
+    {
+        right: 3.2vw;
+    }
+    #Weeds 
+    {
+        right: 3vw;
+    }
+    #Atmoshere 
+    {
+        right: -0.5vw;
+    }
+    #Air 
+    {
+        right: 1.4vw;
+    }
+    #Ocean 
+    {
+        right: 0.6vw;
+    }
+    #Salt 
+    {
+        right: 1.2vw;
+    }
+    #Groundwater 
+    {
+        right: -0.3vw;
+    }
+    #Sediment 
+    {
+        bottom: -22vh;
+        right: -0vw;
+    }
+    #Plastic 
+    {
+        bottom: -32vh;
+        right: 0.6vw;
+    }
+    #Anemometer 
+    {
+        right: -1.5vw;
+    }
+    #AntiCyclone 
+    {
+        right: -2vw;
+        width: 7vw;
+    }
+    #Argo 
+    {
+        right: 0.35vw;
+    }
+    #AtmosphericAerosols 
+    {
+        right: -5.9vw;
+        width: 15vw;
     }
 }
 
@@ -48,20 +229,108 @@
     {
         right: 2.9vw;
     }
-
     .cityTitle 
     {
         right: 88.5vw;
         top: 11.5vh;
     }
-
     #Framings 
     {
-        top: 1.7vh;
+        top: 2.3vh;
     }
 
-    #Matters {
-        top: 1vh;
+    #Matters 
+    {
+        top: 1.8vh;
+    }
+    #DragonFlies
+    {
+        right: 1vw;
+    }
+    #HilsaFish
+    {
+        right: 1.8vw;
+    }
+    #Jackfruit 
+    {
+        right: 2.1vw;
+    }
+    #Mangos 
+    {
+        right: 2.3vw;
+    }
+    #Snakes 
+    {
+        right: 2.5vw;
+    }
+    #Bricks 
+    {
+        right: 3.4vw;
+    }
+    #Khals 
+    {
+        right: 3.2vw;
+    }
+    #PipesAndPots 
+    {
+        right: 1vw;
+        width: 7vw;
+    }
+    #Tanks 
+    {
+        right: 3.2vw;
+    }
+    #Weeds 
+    {
+        right: 3vw;
+    }
+    #Atmoshere 
+    {
+        right: -0.5vw;
+    }
+    #Air 
+    {
+        right: 1.4vw;
+    }
+    #Ocean 
+    {
+        right: 0.6vw;
+    }
+    #Salt 
+    {
+        right: 1.2vw;
+    }
+    #Groundwater 
+    {
+        right: -0.3vw;
+    }
+    #Sediment 
+    {
+        bottom: -22vh;
+        right: -0.2vw;
+    }
+    #Plastic 
+    {
+        bottom: -32vh;
+        right: 0.5vw;
+    }
+    #Anemometer 
+    {
+        right: -2vw;
+    }
+    #AntiCyclone 
+    {
+        right: -2vw;
+        width: 7vw;
+    }
+    #Argo 
+    {
+        right: 0.35vw;
+    }
+    #AtmosphericAerosols 
+    {
+        right: -5.9vw;
+        width: 15vw;
     }
 }
 
@@ -71,27 +340,23 @@
     {
         right: 3.2vw;
     }
-
     .cityTitle 
     {
         right: 89vw;
         top: 11.5vh;
     }
-
     #Infrastructure 
     {
         top: 4.4vh;
     }
-
     #Framings 
     {
         top: 2.2vh;
     }
-
-    #Matters {
+    #Matters 
+    {
         top: 1.5vh;
     }
-
     .headingTitle 
     {
         top: 3vh;
@@ -113,6 +378,95 @@
     {
         top: 56vh;
     }
+    #DragonFlies
+    {
+        right: 1vw;
+    }
+    #HilsaFish
+    {
+        right: 1.8vw;
+    }
+    #Jackfruit 
+    {
+        right: 2.1vw;
+    }
+    #Mangos 
+    {
+        right: 2.3vw;
+    }
+    #Snakes 
+    {
+        right: 2.5vw;
+    }
+    #Bricks 
+    {
+        right: 3.4vw;
+    }
+    #Khals 
+    {
+        right: 3.6vw;
+    }
+    #PipesAndPots 
+    {
+        right: 1.6vw;
+        width: 7vw;
+    }
+    #Tanks 
+    {
+        right: 3.5vw;
+    }
+    #Weeds 
+    {
+        right: 3.3vw;
+    }
+    #Atmoshere 
+    {
+        right: -0.8vw;
+    }
+    #Air 
+    {
+        right: 1.6vw;
+    }
+    #Ocean 
+    {
+        right: 0.5vw;
+    }
+    #Salt 
+    {
+        right: 1.2vw;
+    }
+    #Groundwater 
+    {
+        right: -0.3vw;
+    }
+    #Sediment 
+    {
+        bottom: -22vh;
+        right: -0.3vw;
+    }
+    #Plastic 
+    {
+        bottom: -32vh;
+        right: 0.4vw;
+    }
+    #Anemometer 
+    {
+        right: -2vw;
+    }
+    #AntiCyclone 
+    {
+        right: -2vw;
+        width: 7vw;
+    }
+    #Argo 
+    {
+        right: 0.35vw;
+    }
+    #AtmosphericAerosols 
+    {
+        right: -5.9vw;
+        width: 15vw;
+    }
 }
 
 @media (min-width: 1300px) and (max-width: 1399px) 
@@ -121,32 +475,117 @@
     {
         right: 3.5vw;
     }
-
     .cityTitle 
     {
-        right: 87vw;
-        top: 11.8vh;
+        right: 88vw;
     }
     #Infrastructure 
     {
         top: 3.9vh;
         right: 0.8vw;
     }
-
     #Framings 
     {
         top: 2vh;
     }
-
-    #Matters {
+    #Matters 
+    {
         top: 1.5vh;
         left: 0.8vw;
     }
-    
     #Interlocutors
     {
         top: 3.5vh;
         right: 0.5vw;
+    }
+    #DragonFlies
+    {
+        right: 1vw;
+    }
+    #HilsaFish
+    {
+        right: 1.8vw;
+    }
+    #Jackfruit 
+    {
+        right: 2.1vw;
+    }
+    #Mangos 
+    {
+        right: 2.3vw;
+    }
+    #Snakes 
+    {
+        right: 2.5vw;
+    }
+    #Bricks 
+    {
+        right: 3.4vw;
+    }
+    #Khals 
+    {
+        right: 3.6vw;
+    }
+    #PipesAndPots 
+    {
+        right: 1.2vw;
+        width: 7vw;
+    }
+    #Tanks 
+    {
+        right: 3.5vw;
+    }
+    #Weeds 
+    {
+        right: 3.3vw;
+    }
+    #Atmoshere 
+    {
+        right: -0.8vw;
+    }
+    #Air 
+    {
+        right: 1.3vw;
+    }
+    #Ocean 
+    {
+        right: 0.5vw;
+    }
+    #Salt 
+    {
+        right: 1.2vw;
+    }
+    #Groundwater 
+    {
+        right: -0.5vw;
+    }
+    #Sediment 
+    {
+        bottom: -22vh;
+        right: 0vw;
+    }
+    #Plastic 
+    {
+        bottom: -32vh;
+        right: 0.4vw;
+    }
+    #Anemometer 
+    {
+        right: -2vw;
+    }
+    #AntiCyclone 
+    {
+        right: -2.5vw;
+        width: 7vw;
+    }
+    #Argo 
+    {
+        right: 0.1vw;
+    }
+    #AtmosphericAerosols 
+    {
+        right: -6.5vw;
+        width: 15vw;
     }
 }
 
@@ -156,10 +595,128 @@
     {
         right: 4vw;
     }
-
     .cityTitle 
     {
         right: 85vw;
         top: 15.5vh;
     }
 }
+
+@media (min-height: 600px) and (max-height: 699px)
+{
+    .headingItem
+    {
+        font-size: 11px;
+        right: 0.15vw;
+    }
+    .cityTitle 
+    {
+        position: absolute;
+        top: 103px;
+    }
+    #Infrastructure 
+    {
+        top: 9.5vh;
+    }
+    #Framings 
+    {
+        top: 6.5vh;
+    }
+    #Matters 
+    {
+        top: 5.5vh;
+    }
+    #Interlocutors
+    {
+        top: 9vh;
+        right: 0.5vw;
+    }
+    .tabSubtitles
+    {
+        font-size: 12px;
+    }
+    #DragonFlies
+    {
+      top: 450px;
+    }
+    #HilsaFish
+    {
+        top: 550px;
+    }
+    #Jackfruit 
+    {
+        top: 640px;
+    }
+    #Mangos 
+    {
+        top: 725px;
+    }
+    #Snakes 
+    {
+        top: 800px;
+    }
+    #Bricks 
+    {
+        top: 435px;
+    }
+    #Khals 
+    {
+        top: 500px;
+    }
+    #PipesAndPots 
+    {
+        top: 600px;
+    }
+    #Tanks 
+    {
+        top: 700px;
+    }
+    #Weeds 
+    {
+        top: 780px;
+    }
+    #Atmoshere 
+    {
+        top: 450px;
+    }
+    #Air 
+    {
+        top: 530px;
+    }
+    #Ocean 
+    {
+        top: 590px;
+    }
+    #Salt 
+    {
+        top: 650px;
+    }
+    #Groundwater 
+    {
+        top: 720px;
+    }
+    #Sediment 
+    {
+        top: 800px;
+    }
+    #Plastic 
+    {
+        top: 850px;
+    }
+    #Anemometer 
+    {
+        top: 455px;
+    }
+    #AntiCyclone 
+    {
+        top: 560px;
+    }
+    #Argo 
+    {
+        top: 650px;
+    }
+    #AtmosphericAerosols 
+    {
+        top: 750px;
+    }
+} 
