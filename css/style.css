@@ -392,3 +392,8 @@ a
       top: 1.8vh;
       left: 0.5vw;
   }
+
+  .subtitleContainer
+  {
+      display: inline;
+  }

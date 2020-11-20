@@ -380,11 +380,11 @@
     }
     #DragonFlies
     {
-        right: 1vw;
+        right: 1.6vw;
     }
     #HilsaFish
     {
-        right: 1.8vw;
+        right: 2vw;
     }
     #Jackfruit 
     {
@@ -408,7 +408,7 @@
     }
     #PipesAndPots 
     {
-        right: 1.6vw;
+        right: 1vw;
         width: 7vw;
     }
     #Tanks 
@@ -421,19 +421,19 @@
     }
     #Atmoshere 
     {
-        right: -0.8vw;
+        right: 0.5vw;
     }
     #Air 
     {
-        right: 1.6vw;
+        right: 1.9vw;
     }
     #Ocean 
     {
-        right: 0.5vw;
+        right: 1.3vw;
     }
     #Salt 
     {
-        right: 1.2vw;
+        right: 1.8vw;
     }
     #Groundwater 
     {
@@ -442,16 +442,16 @@
     #Sediment 
     {
         bottom: -22vh;
-        right: -0.3vw;
+        right: 0.5vw;
     }
     #Plastic 
     {
         bottom: -32vh;
-        right: 0.4vw;
+        right: 0.9vw;
     }
     #Anemometer 
     {
-        right: -2vw;
+        right: -1vw;
     }
     #AntiCyclone 
     {
@@ -460,7 +460,7 @@
     }
     #Argo 
     {
-        right: 0.35vw;
+        right: 0.7vw;
     }
     #AtmosphericAerosols 
     {
@@ -500,23 +500,23 @@
     }
     #DragonFlies
     {
-        right: 1vw;
+        right: 1.8vw;
     }
     #HilsaFish
     {
-        right: 1.8vw;
+        right: 2.4vw;
     }
     #Jackfruit 
     {
-        right: 2.1vw;
+        right: 2.7vw;
     }
     #Mangos 
     {
-        right: 2.3vw;
+        right: 2.8vw;
     }
     #Snakes 
     {
-        right: 2.5vw;
+        right: 3vw;
     }
     #Bricks 
     {
@@ -635,88 +635,44 @@
     {
         font-size: 12px;
     }
-    #DragonFlies
-    {
-      top: 450px;
-    }
-    #HilsaFish
-    {
-        top: 550px;
-    }
-    #Jackfruit 
-    {
-        top: 640px;
-    }
-    #Mangos 
-    {
-        top: 725px;
-    }
-    #Snakes 
-    {
-        top: 800px;
-    }
-    #Bricks 
-    {
-        top: 435px;
-    }
-    #Khals 
-    {
-        top: 500px;
-    }
-    #PipesAndPots 
-    {
-        top: 600px;
-    }
-    #Tanks 
-    {
-        top: 700px;
-    }
-    #Weeds 
-    {
-        top: 780px;
-    }
-    #Atmoshere 
-    {
-        top: 450px;
-    }
-    #Air 
-    {
-        top: 530px;
-    }
-    #Ocean 
-    {
-        top: 590px;
-    }
-    #Salt 
-    {
-        top: 650px;
-    }
-    #Groundwater 
-    {
-        top: 720px;
-    }
-    #Sediment 
-    {
-        top: 800px;
-    }
-    #Plastic 
-    {
-        top: 850px;
-    }
-    #Anemometer 
-    {
-        top: 455px;
-    }
-    #AntiCyclone 
-    {
-        top: 560px;
-    }
-    #Argo 
-    {
-        top: 650px;
-    }
-    #AtmosphericAerosols 
-    {
-        top: 750px;
-    }
+
 } 
+
+@media (min-height: 700px) and (max-height: 799px)
+{
+    .headingItem
+    {
+        font-size: 11px;
+        right: 0.15vw;
+    }
+    .cityTitle 
+    {
+        position: absolute;
+        top: 90px;
+    }
+    li .section-title {
+        bottom: 39.5vh;
+        font-size: 12px;
+    }
+    .tabSubtitles
+    {
+        font-size: 12px;
+    }
+    #Infrastructure 
+    {
+        top: 1.5vh;
+    }
+    #Framings 
+    {
+        top: -0.8vh;
+    }
+    #Matters 
+    {
+        top: -1.5vh;
+    }
+    #Interlocutors
+    {
+        top: 1vh;
+        right: 0.5vw;
+    }
+}
