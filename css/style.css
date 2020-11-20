@@ -101,6 +101,21 @@ body
     left: 1vw;
     font-family: 'Sora', sans-serif;
 }
+#cityNameContainer
+{
+    display: inline-block;
+}
+.cityTitlePrimary
+{
+    margin: 0;
+    padding: 0;
+    font-size: 3.5vw;
+    line-height: 63px;
+    position: relative;
+    left: 0.5vw;
+    top: 9vh;
+    font-family: 'Sora', sans-serif;
+}
 .cityName
 {
     margin: 0;
