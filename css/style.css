@@ -110,7 +110,8 @@ body
     margin: 0;
     padding: 0;
     font-size: 3.5vw;
-    line-height: 63px;
+    font-weight: 400;
+    line-height: 60px;
     position: relative;
     left: 0.5vw;
     top: 9vh;
@@ -259,25 +260,24 @@ body
 }
 #Anemometer
 {
-    bottom: 25.5vh;
-    right: -1.5vw;
+    right: 18vw;
+    bottom: -17.5vh;
 }
 #AntiCyclone
 {
-    bottom: 11vh;
-    right: -1.5vw;
+    right: 17.9vw;
+    bottom: -33vh;
     width: 5vw;
 }
 #Argo
 {
-    bottom: 0vh;
-    right: 0vw;
+    right: 19.5vw;
+    bottom: -45vh;
 }
 #AtmosphericAerosols
 {
-    bottom: -15vh;
-    right: -6.5vw;
-    width: 15vw;
+    right: 16.3vw;
+    bottom: -60vh;
 }
 ul 
 {
@@ -352,7 +352,34 @@ li .section-content
     margin: 0;
     padding: 0;
     opacity: 0;
-    transition: all 0.25s 0.1s ease-out;
+    /* transition: all 0.25s 0.5s ease-out; */
+}
+.focusedSubtitles
+{
+    position: absolute;
+    display: block;
+    width: 500px;
+    left: -3.5vw;
+    bottom: 43vh;
+}
+.focusedSingleSubtitle
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 33px;
+}
+#focusedSubtitlesThree
+{
+    left: -1.5vw;
+    bottom: 35vh;
+}
+#focusedSubtitlesFour
+{
+    left: -1vw;
+    bottom: 45vh;
 }
 a
 {
