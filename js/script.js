@@ -68,15 +68,18 @@ DhakaTitle.addEventListener('click', () =>
   cityDhaka.style.textDecoration = "underline";
 
 
-  var changeDhakaPosition = setInterval(dhakaTimer, 1000);
+  var changeDhakaPosition = setTimeout(dhakaTimer, 1000);
 
   function dhakaTimer ()
   {
-    cityDhaka.style.position = "absolute";
-    cityDhaka.style.top = '0vh';
-    contentSection.innerHTML = "<p class='contentText'>'Dhaka was a floating city. That's why Dhaka was chosen to be the capital, in those days water was the protection' (River activist, interview with Beth Cullen, 19th October 2019, Dhaka)</p>";
+    // cityDhaka.style.position = "absolute";
+    // cityDhaka.style.top = '0vh';
+    contentSection.innerHTML = "<p class='contentText'>“Dhaka was a floating city. That's why Dhaka was chosen to be the capital, in those days water was the protection” (River activist, interview with Beth Cullen, 19th October 2019, Dhaka)</p>";
     contentSection.style.position = 'absolute';
-    contentSection.style.top = '26vh';
+    contentSection.style.top = '40vh';
+    contentSection.style.opacity = '0';
+
+    $("#primaryPanel").delay(250).animate({"opacity": "1"}, 500);
   }
 
   $("#cityChennai").delay(250).animate({"opacity": "0"}, 500);
