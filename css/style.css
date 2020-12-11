@@ -29,6 +29,7 @@ body
     border-right: 3px solid black;
     padding: 0;
     margin: 0;
+    z-index: 3;
 }
 .headingTitle
 {
@@ -36,7 +37,7 @@ body
     transform: rotate(90deg);
     white-space: nowrap;
     position: relative;
-    top:5vh;
+    top:3vh;
     right: 0vw;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
@@ -54,30 +55,32 @@ body
 }
 #project
 {
-    top: 30vh;
+    top: 26vh;
 }
 #calendar
 {
-    top: 38vh;
+    top: 35vh;
 }
 #residency
 {
-    top: 50vh;
+    top: 48vh;
 }
 #assemblages
 {
-    top: 62vh;
+    top: 61vh;
 }
 #mainSection
 {
-    width: 55vw;
-    height: 100vh;
+    width: 60vw;
+    height: 90vh;
     padding: 0;
     margin: 0;
     position: absolute;
-    left: 5.5vw;
-    bottom: 0.5vh;
+    left: 4vw;
+    bottom: 10vh;
     overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 3;
 }
 #mainSection::-webkit-scrollbar 
 {
@@ -89,16 +92,17 @@ body
     transform: rotate(90deg);
     white-space: nowrap;
     position: absolute;
-    top: 11.3vh;
+    top: 9.2vh;
     right: 91vw;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
+    z-index: 5;
 }
 #cityHeadings
 {
     position: relative;
-    top: 30vh;
-    left: 1vw;
+    top: 19vh;
+    left: -0.5vw;
     font-family: 'Sora', sans-serif;
 }
 #cityNameContainer
@@ -117,6 +121,29 @@ body
     top: 9vh;
     font-family: 'Sora', sans-serif;
 }
+
+.cityTitlePrimary:hover
+{
+    font-weight: 900;
+}
+
+.cityTitlePrimary:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 50%;
+    position: absolute;
+    background: black;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+  .cityTitlePrimary:hover:after { 
+    width: 100%; 
+    left: 0;
+  }
 .cityName
 {
     margin: 0;
@@ -124,16 +151,16 @@ body
     font-size: 3.5vw;
     line-height: 63px;
     position: absolute;
-    left: 0.5vw;
+    left: 1vw;
     top: 9vh;
 }
 .content
 {
     position: relative;
-    width: 26vw;
+    width: 28vw;
     height: 100vh;
-    left: 28vw;
-    top: 33vh;
+    left: 33.5vw;
+    top: 24.5vh;
     overflow-x: hidden;
     overflow-y: hidden;
     padding: 10px;
@@ -141,17 +168,29 @@ body
 #contentTitle
 {
     font-family: 'Roboto', sans-serif;
-    font-size: 40px;
+    font-size: 34px;
     font-weight: 400;
-    line-height: 48px;
-    width: 25vw;    
+    line-height: 30px;
+    width: 25vw;   
 }
 .contentText
 {
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 25px;
+    width: 26vw;
+}
+.hydrologicalContentText
+{
+    position: absolute;
+    width: 28vw;
+    height: 100vh;
+    left: 33.5vw;
+    top: 26.5vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 10px;
 }
 #accordianSection
 {
@@ -161,6 +200,7 @@ body
     bottom: 0.5vw;
     margin: 0;
     padding: 0;
+    z-index: 5;
 
 }
 .tabSubtitles
@@ -173,111 +213,111 @@ body
 }
 #DragonFlies
 {
-    bottom: 26vh;
+    bottom: 16.5vh;
     right: 0.8vw;
 }
 #HilsaFish
 {
-    bottom: 15vh;
+    bottom: 6vh;
     right: 1.3vw;
 }
 #Jackfruit
 {
-    bottom: 5vh;
+    bottom: -3.5vh;
     right: 1.6vw;
 }
 #Mangos
 {
-    bottom: -5vh;
+    bottom: -12vh;
     right: 1.7vw;
 }
 #Snakes
 {
-    bottom: -15vh;
+    bottom: -2.5vh;
     right: 1.8vw;
 }
 #Bricks
 {
-    bottom: 28.2vh;
+    bottom: 18.6vh;
     right: 2.5vw;
 }
 #Khals
 {
-    bottom: 20vh;
+    bottom: 13vh;
     right: 2.6vw;
 }
 #PipesAndPots
 {
-    bottom: 10vh;
+    bottom: 4.5vh;
     right: 1.2vw;
     width: 5vw;
 }
 #Tanks
 {
-    bottom: 0vh;
+    bottom: -3.5vh;
     right: 2.6vw;
 }
 #Weeds
 {
-    bottom: -8vh;
+    bottom: -10vh;
     right: 2.5vw;
 }
 #Atmoshere
 {
-    bottom: 26.3vh;
+    bottom: 16.8vh;
     right: -0.5vw;
 }
 #Air
 {
-    bottom: 17vh;
+    bottom: 9vh;
     right: 1vw;
 }
 #Ocean
 {
-    bottom: 10vh;
+    bottom: 3vh;
     right: 0.4vw;
 }
 #Salt
 {
-    bottom: 2vh;
-    right: 1vw;
+    bottom: -3vh;
+    right: 0.9vw;
 }
 #Groundwater
 {
-    bottom: -8vh;
+    bottom: -11vh;
     right: -0.8vw;
     width: 5vw;
 }
 #Sediment
 {
-    bottom: -20vh;
+    bottom: -21vh;
     right: 0vw;
 }
 #Plastic
 {
-    bottom: -30vh;
+    bottom: -29vh;
     right: 0.5vw;
 }
 #Anemometer
 {
     right: 18vw;
-    bottom: -17.5vh;
+    bottom: -34vh;
 }
 #AntiCyclone
 {
     right: 17.9vw;
-    bottom: -33vh;
+    bottom: -46vh;
     width: 5vw;
 }
 #Argo
 {
     right: 19.5vw;
-    bottom: -45vh;
+    bottom: -55.5vh;
 }
 #AtmosphericAerosols
 {
     right: 16.3vw;
-    bottom: -60vh;
+    bottom: -68vh;
 }
 ul 
 {
@@ -294,19 +334,19 @@ li
     display: flex;
     align-items: stretch;
     padding: 20px;
-    background: white;
+    background: rgba(255, 255, 255, 0);
     cursor: pointer;
     transition: all 0.5s ease;
     width: 3vw;
     border-left: 3px solid black;
 }
-li:hover 
+/* li:hover 
 {
     background: #eeeeee;
-}
+} */
 li.active 
 {
-    background: white;
+    background: rgba(255, 255, 255, 0);
     cursor: default;
     width: 25vw;
 }
@@ -359,8 +399,8 @@ li .section-content
     position: absolute;
     display: block;
     width: 500px;
-    left: -3.5vw;
-    bottom: 43vh;
+    left: -4vw;
+    bottom: 50vh;
 }
 .focusedSingleSubtitle
 {
@@ -369,17 +409,22 @@ li .section-content
     font-family: 'Roboto', sans-serif;
     font-size: 32px;
     font-weight: 400;
-    line-height: 33px;
+    line-height: 37px;
+}
+.focusedSingleSubtitle:hover
+{
+    font-weight: 900;
+    cursor: pointer;
 }
 #focusedSubtitlesThree
 {
     left: -1.5vw;
-    bottom: 35vh;
+    bottom: 42vh;
 }
 #focusedSubtitlesFour
 {
     left: -1vw;
-    bottom: 45vh;
+    bottom: 53.5vh;
 }
 a
 {
@@ -438,4 +483,84 @@ a
   .subtitleContainer
   {
       display: inline;
+      font-weight: 400;
+  }
+
+  #dhakaVideo
+  {
+      width: 100vw;
+      height: auto;
+      position: absolute;
+      bottom: 0vh;
+      z-index: 0;
+  }
+
+  #videoContent
+  {
+      display: none;
+      opacity: 0;
+  }
+
+  #imageContent
+  {
+      width: 40vw;
+      height: 45vh;
+      padding: 0;
+      margin: 0;
+      position: relative;
+      bottom: 102vh;
+      left: 10vw;
+      text-align: center;
+      opacity: 0;
+  }
+
+  #imageContent:hover
+  {
+    cursor: -webkit-zoom-in;
+  }
+
+  #hydrologicalImage
+  {
+      width: 32vw;
+      height: 0%;
+      height: auto;
+      overflow-y: scroll;
+  }
+
+  #hydroTitle
+  {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  #explore
+  {
+      z-index: 5;
+  }
+
+  #backHyrdo
+  {
+      position: absolute;
+      left: 22vw;
+      top: 95vh;
+      width: 50vw;
+      z-index: 5;
+      opacity: 0;
+  }
+
+  .focusedSingleSubtitle:before {
+    content: '◀ ';
+    position: relative;
+    opacity: 0;  
+    left: 0;
+    transition: 0.5s;
+  }
+  
+  .focusedSingleSubtitle:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  
+  .focusedSingleSubtitle:hover:before {
+    opacity: 1;
+    right: 10px;
   }
