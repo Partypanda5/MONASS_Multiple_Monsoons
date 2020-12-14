@@ -241,7 +241,10 @@ DhakaTitle.addEventListener('click', () =>
               $("#TerritorialDisruptionImage8").fadeOut(1000);
               $("#TerritorialDisruptionImage9").fadeOut(1000);
 
-              $("#blueLinesOne").fadeIn(2000);
+              $("#blueLinesOne").fadeIn(3000);
+              $("#InfrastructuraExcessImage1").fadeIn(3000);
+              $("#InfrastructuraExcessImage2").fadeIn(3000);
+              $("#InfrastructuraExcessVideo").fadeIn(3000);
       
               scrollCounter ++;
           } 

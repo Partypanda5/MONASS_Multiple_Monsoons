@@ -315,13 +315,13 @@ body
 
 #InfrastructuraExcessVideo
 {
-    width: 32.5vw;
-    height: auto;
+    width: 33vw;
+    height: 55vh;
     position: absolute;
     left: 3vw;
-    bottom: 0vh;
-    display: block;
+    bottom: -10vh;
     opacity: 1;
+    display: none;
 }
 .InfrastructuralExcess
 {
@@ -339,16 +339,18 @@ body
     bottom: 0vh;
     width: 35vw;
     height: 35vh;
+    display: none;
 }
 
 #InfrastructuraExcessImage2
 {
-    left: 35vw;
-    width: 31vw;
+    left: 36vw;
+    width: 30vw;
     height: auto;
     display: block;
     opacity: 1;
     bottom: 35vh;
+    display: none;
 }
 
 #blueLinesOne
@@ -359,6 +361,7 @@ body
     bottom: 0;
     display: block;
     z-index: -5;
+    display: none;
 }
 #accordianSection
 {
