@@ -218,6 +218,38 @@ body
     overflow-y: hidden;
     padding: 10px;
 }
+#YeGyanZin
+{
+    position: relative;
+    width: 28vw;
+    height: 100vh;
+    left: -0.5vw;
+    top: 33vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 10px;
+}
+
+#potScroll
+{
+    width: 25vw;
+    height: 73.5vh;
+    position: absolute;
+    bottom: 0vh;
+    left: 35vw;
+    overflow-y: scroll;
+    overflow-x: 0;
+    z-index: 5;
+    display: none;
+}
+.pots
+{
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
 .ChapterName
 {
     font-family: 'Roboto', sans-serif;
@@ -225,10 +257,20 @@ body
     font-weight: 400;
     line-height: 37px;
     position: absolute;
-    left: 1.3vw;
-    top: 9vh;
+    left: 0.5vw;
+    top: 5vh;
 }
-
+.YeGyanZinChapterName
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37px;
+    position: absolute;
+    left: 1.1vw;
+    top: 5vh;
+    display: none;
+}
 #TerritorialDisruptionVideo
 {
     width: 33vw;
@@ -353,6 +395,36 @@ body
     display: none;
 }
 
+#TerraTerraAqueous1
+{
+    width: 33vw;
+    height: 55vh;
+    position: absolute;
+    left: 3vw;
+    bottom: -10vh;
+    opacity: 1;
+    display: none;
+}
+#TerraTerraAqueous2
+{
+    width: 30vw;
+    height: 55vh;
+    position: absolute;
+    left: 36vw;
+    bottom: 23.5vh;
+    opacity: 1;
+    display: none;
+}
+#TerraTerraAqueous3
+{
+    width: 33vw;
+    height: 55vh;
+    position: absolute;
+    left: 36vw;
+    bottom: -10vh;
+    opacity: 1;
+    display: none;
+}
 #blueLinesOne
 {
     position: absolute;

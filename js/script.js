@@ -249,6 +249,68 @@ DhakaTitle.addEventListener('click', () =>
               scrollCounter ++;
           } 
 
+          else if (dhakaScroll === true && scrollCounter === 4)
+          {
+            //$("#InfrastructuraExcessImage1").fadeOut(1000);
+            $("#InfrastructuraExcessImage2").fadeOut(1000);
+            $("#InfrastructuraExcessVideo").fadeOut(1000);
+            primaryPanelContainer.innerHTML =
+            `
+            <div id="cityHeadings">
+            <a href="#"><h1 class="YeGyanZinChapterName">Ye Gyan Zin</h1></a>
+              </div>
+              <div id="YeGyanZin" class="content">
+                  <p class="YeGyanZinText">Ye Gyan Zin is a Burmese tradition of earthenware
+                    pots filled with potable water and placed in public
+                    places for passersby to drink from. It is practiced
+                    as a charitable act of devotion to Buddha and
+                    considered to be a meritorious deed that will
+                    speed up the attainment of Nirvana. The practice
+                    takes the form of distinctively shaped clay water
+                    pots that are cleaned and filled each day by their
+                    donors and topped by a wicker, metal or plastic cap,
+                    accompanied by a ladle, glass or plastic mug from
+                    which passersby drink.</p>
+              </div>
+            `;
+            $(".YeGyanZinChapterName").fadeIn(3000);
+            $(".YeGyanZinText").fadeIn(3000);
+            $("#potScroll").fadeIn(3000);
+            scrollCounter ++;
+          }
+
+          else if (dhakaScroll === true && scrollCounter === 5)
+          {
+            $(".YeGyanZinChapterName").fadeOut(1000);
+            $(".YeGyanZinText").fadeOut(1000);
+            $("#potScroll").fadeOut(1000);
+            $("#blueLinesOne").fadeOut(1000);
+
+            primaryPanelContainer.innerHTML =
+            `
+            <div id="cityHeadings">
+            <a href="#"><h1 class="ChapterName">Terra-aqueous Land</h1></a>
+              </div>
+              <div id="YeGyanZin" class="content">
+                  <p class="YeGyanZinText">Bangladesh is a fluctuating monsoonal terrain,
+                  almost half covered in water between June and
+                  October each year, when it receives and is shaped by
+                  huge inflows of water and sediment carried from the
+                  Himalayas by the Ganges, Brahmaputra and Meghna
+                  Rivers. In addition to this, it is impacted by oceanic
+                  dynamics that originate in the Bay of Bengal,
+                  such as tides, reversing currents, cyclones and
+                  storm surges that frequently push seawater many
+                  kilometres inland and shape coastal communities
+                  and ecologies.</p>
+              </div>
+            `;  
+
+            $("#TerraTerraAqueous1").fadeIn(3000);
+            $("#TerraTerraAqueous2").fadeIn(3000);
+            $("#TerraTerraAqueous3").fadeIn(3000);
+            scrollCounter ++;
+          }
     });
   });
 });
