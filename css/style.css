@@ -191,6 +191,174 @@ body
     overflow-x: hidden;
     overflow-y: hidden;
     padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.TerritorialDisruptionText
+{
+    position: absolute;
+    width: 22vw;
+    height: 100vh;
+    right: 6vw;
+    top: 15vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#TerritorialDisruptionPrimaryPanel
+{
+    position: relative;
+    width: 28vw;
+    height: 100vh;
+    left: 0.5vw;
+    top: 23vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 10px;
+}
+.ChapterName
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37px;
+    position: absolute;
+    left: 1.3vw;
+    top: 9vh;
+}
+
+#TerritorialDisruptionVideo
+{
+    width: 33vw;
+    height: 30vw;
+    position: absolute;
+    left: 33vw;
+    bottom: 28vh;
+    display: block;
+    opacity: 0;
+}
+#TerritorialDisruptionImage1
+{
+    left: 3vw;
+    display: block;
+    opacity: 0;
+}
+#TerritorialDisruptionImage2
+{
+    left: 33vw;
+    display: block;
+    opacity: 0;
+}
+#TerritorialDisruptionImage3
+{
+    left: 66vw;
+    display: block;
+    opacity: 0;
+}
+
+#TerritorialDisruptionImage4
+{
+    left: 3vw;
+    display: block;
+    opacity: 0;
+    bottom: 31vh;
+}
+#TerritorialDisruptionImage5
+{
+    left: 33vw;
+    display: block;
+    opacity: 0;
+    bottom: 31vh;
+}
+#TerritorialDisruptionImage6
+{
+    left: 66vw;
+    display: block;
+    opacity: 0;
+    width: 36.3vw;
+    height: auto;
+    bottom: 31vh;
+}
+
+#TerritorialDisruptionImage7
+{
+    left: 3vw;
+    display: block;
+    opacity: 0;
+    width: 30vw;
+    height: auto;
+    bottom: -5vh;
+}
+#TerritorialDisruptionImage8
+{
+    left: 33vw;
+    display: block;
+    opacity: 0;
+    bottom: -7vh;
+}
+#TerritorialDisruptionImage9
+{
+    left: 66vw;
+    display: block;
+    opacity: 0;
+    bottom: -7vh;
+}
+.TerritorialDisruptionImages
+{
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    bottom: 0;
+}
+
+#InfrastructuraExcessVideo
+{
+    width: 32.5vw;
+    height: auto;
+    position: absolute;
+    left: 3vw;
+    bottom: 0vh;
+    display: block;
+    opacity: 1;
+}
+.InfrastructuralExcess
+{
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    bottom: 0;
+}
+
+#InfrastructuraExcessImage1
+{
+    left: 66vw;
+    display: block;
+    opacity: 1;
+    bottom: 0vh;
+    width: 35vw;
+    height: 35vh;
+}
+
+#InfrastructuraExcessImage2
+{
+    left: 35vw;
+    width: 31vw;
+    height: auto;
+    display: block;
+    opacity: 1;
+    bottom: 35vh;
+}
+
+#blueLinesOne
+{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    bottom: 0;
+    display: block;
+    z-index: -5;
 }
 #accordianSection
 {
@@ -201,7 +369,6 @@ body
     margin: 0;
     padding: 0;
     z-index: 5;
-
 }
 .tabSubtitles
 {
@@ -415,6 +582,10 @@ li .section-content
 {
     font-weight: 900;
     cursor: pointer;
+}
+#focusedSubtitlesOne
+{
+    bottom: 57.5vh;
 }
 #focusedSubtitlesThree
 {
